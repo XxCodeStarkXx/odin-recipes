@@ -1,14 +1,22 @@
 h1 {
-    text-align: center;
     background-color: green;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
+    padding: 8px 24px;
+    border: 8px;
+    margin: 200px;
+    margin-top: 10px;
+    margin-bottom: 8px;
+    text-align: center;
 
 
 }
 
-ul {
-    text-align: center;
+.title {
+    font-size: 40px;
+    background-color: rgb(112, 194, 214);
+    padding: 0 20px 0 20px;
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(0, 0, 0);
 }
 
 body {
@@ -32,4 +40,27 @@ h2 {
 ol {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 20px;
+}
+
+.menu {
+    background-color: aqua;
+    flex: auto;
+    text-align: center;
+    flex: 1;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.ingredients {
+    background-color: yellow;
+    padding: 8px;
+    box-sizing: border-box;
+    width: 300px;
+    margin: 20px;
+    border-radius: 10px;
+    border: 5px solid black ;
+    
+    
 }
